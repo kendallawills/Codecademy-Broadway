@@ -1,0 +1,142 @@
+/* BODY */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #333333;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+
+li {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    width: 80px;
+}
+
+/* MAIN */
+
+main {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.jumbotron {
+    height: 800px;
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+
+.btn-main {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 40px;
+}
+
+.btn-default {
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* SUPPORTING */
+
+.supporting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.column {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.supporting img {
+    height: 32px;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.supporting a {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: #333333;
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #333333;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer {
+    color: #fff;
+    background-color: #333;
+    padding: 30px 0;
+}
+
+footer p {
+    font-family: "Raleway", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+}
